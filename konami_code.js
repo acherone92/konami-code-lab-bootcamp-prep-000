@@ -10,7 +10,7 @@ function onKeyDownHandler(e){
     if (key==code[index]){
       index++;
       if (index ==code.length){
-        alert("")
+        alert("You found the easter egg!");
       }
   }
 }
