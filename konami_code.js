@@ -5,7 +5,7 @@ function init() {
 let index = 0;
 
 function onKeyDownHandler(e){
-  console.log(`Detail: ${e.detail}\nWhich: ${e.which}\nLocation: ${e.location}`);
+  console.log(`Index ${index}\nDetail: ${e.detail}\nWhich: ${e.which}\nLocation: ${e.location}`);
   const key = parseInt(e.detail);
     if (key==code[index]){
       index++;
