@@ -9,7 +9,9 @@ function onKeyDownHandler(e){
   const key = parseInt(e.detail)
     if (key==code[index]){
       index++;
-      if (index ==)
+      if (index ==code.length){
+        alert()
+      }
   }
 }
 }
